@@ -65,6 +65,7 @@ export default async function DashboardPage() {
           <StatsControls />
 
           <LineChart
+            h={350}
             data={Mockdata}
             dataKey="date"
             series={[
